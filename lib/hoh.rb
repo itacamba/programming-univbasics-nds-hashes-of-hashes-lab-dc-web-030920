@@ -52,6 +52,10 @@ def naming_system
               label: "Order",
                 sub_category: {
                   label: "Genus",
+                    sub_category: {
+                      label: "Species",
+                        sub_category: nil
+                      }
                 }
               }
           }
